@@ -14,5 +14,13 @@ function clean() {
 }
 
 function calcular() {
-    dis.innerHTML = "..."
+    var res = eval(dis.innerHTML)
+    if (dis.innerHTML.length == 0) {
+        dis.innerHTML = ""
+    } else if (res > 99999999) {
+        dis.innerHTML = ""
+        alert("[ERRO]: Número muito grande.")
+    } else {
+        dis.innerHTML = res
+    }
 }
