@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: rgb(255, 52, 52);
+    color: white;
+    text-align: center;
+    padding: 30px;
+    font-variant: small-caps;
+    font-size: 1.5em;
+}
+
+section {
+    text-align: center;
+}
+
+#roll {
+    padding: 50px;
+}
+
+#d6 {
+    width: 250px;
+    height: 250px;
+    background-color: rgb(255, 52, 52);
+    color: white;
+    margin: auto;
+    font-size: 14em;
+}
+
+#res {
+    font-size: 1.4em;
+}
+
+#but {
+    font-size: 1.3em;
+    padding: 5px;
+    margin-bottom: 15px;
+}
